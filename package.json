@@ -1,0 +1,24 @@
+{
+  "name": "Saarthi Visa ",
+  "version": "1.0.0",
+  "description": "Saarthi Visa Comming Soon ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "build": "node build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.9.3",
+    "npm": "6.0.1"
+  },
+  "author": "Viral Patel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.1.0",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
