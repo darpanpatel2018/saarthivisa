@@ -1,7 +1,7 @@
 {
-  "name": "Saarthi Visa ",
+  "name": "Viral",
   "version": "1.0.0",
-  "description": "Saarthi Visa Comming Soon ",
+  "description": "Saarthi Visa ",
   "main": "app.js",
   "scripts": {
     "start": "node app",
@@ -16,9 +16,11 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "consolidate": "^0.15.1",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "nodemailer": "^4.1.0",
-    "nodemailer-sendgrid-transport": "^0.2.0"
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "swig": "^1.4.2"
   }
 }
